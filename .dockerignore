@@ -1,0 +1,14 @@
+# Exclude everything
+*
+
+# Only add what is necessary
+!babel.config.js
+!docusaurus.config.js
+!package.json
+!sidebars.js
+!tsconfig.json
+!yarn.lock
+!blog
+!docs
+!src
+!static
