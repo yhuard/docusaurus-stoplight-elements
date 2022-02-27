@@ -1,12 +1,9 @@
 import React, { Suspense } from "react";
 import Layout from "@theme/Layout";
-import "@stoplight/elements/styles.min.css";
 import BrowserOnly from "@docusaurus/BrowserOnly";
+import { Fallback } from "../components/Fallback";
 
 const LazyStoplight = React.lazy(() => import("../components/stoplight"));
-const Fallback = (
-  <div style={{ minHeight: "calc(100vh - var(--ifm-navbar-height))" }} />
-);
 
 export default function Api() {
   return (

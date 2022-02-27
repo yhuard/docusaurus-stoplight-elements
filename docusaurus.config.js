@@ -42,6 +42,7 @@ const config = {
   ],
 
   plugins: [
+    "docusaurus-plugin-sass",
     // Add custom webpack config to make @stoplight/elements work
     () => ({
       name: "custom-webpack-config",

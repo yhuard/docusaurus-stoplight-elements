@@ -21,10 +21,12 @@
     "@stoplight/elements": "^7.5.13",
     "buffer": "^6.0.3",
     "clsx": "^1.1.1",
+    "docusaurus-plugin-sass": "^0.2.2",
     "prism-react-renderer": "^1.2.1",
     "process": "^0.11.10",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "sass": "^1.49.9"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-beta.15",
